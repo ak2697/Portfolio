@@ -63,7 +63,7 @@ const About = () => {
     <div className="about-container">
       {/* Short Bio */}
       <div className="bio">
-        <h2 className='heading'>About Me</h2>
+        <h2 className='heading'>About</h2>
         <h4>Seasoned software engineer renowned for exceptional problem-solving abilities. With a Master's degree in Computer Science and a strong background in both frontend and backend development, I bring a unique blend of technical expertise and analytical prowess to every project. From optimizing algorithms to crafting elegant solutions, my dedication to problem-solving excellence drives success in every endeavor.</h4>
       </div>
       
