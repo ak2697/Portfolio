@@ -23,6 +23,7 @@ import azure from '../assets/azure.png';
 
 
 import awsccp from '../assets/awsccp.png';
+import NavBar from './NavBar';
 // Import other skill icons
 
 const About = () => {
@@ -60,6 +61,8 @@ const About = () => {
 
 
   return (
+    <div>
+    <NavBar />
     <div className="about-container">
       {/* Short Bio */}
       <div className="bio">
@@ -110,6 +113,7 @@ const About = () => {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 }

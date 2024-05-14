@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css'; // Import your CSS file for styling
 import GithubImage from '../assets/github.png'; 
+import NavBar from './NavBar';
 const Projects = () => {
   // Array of projects (dummy data)
   const projects = [
@@ -88,7 +89,9 @@ const Projects = () => {
   ];
 
   return (
-<div id="projects-section" className="projects-section">
+    <div>
+      <NavBar />
+      <div id="projects-section" className="projects-section">
   
   <div className="project-list">
     {/* Map over projects array to generate project cards */}
@@ -115,6 +118,9 @@ const Projects = () => {
     ))}
   </div>
 </div>
+
+    </div>
+
 
   );
 }
