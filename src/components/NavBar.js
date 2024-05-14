@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => {
-  const [activeTab, setActiveTab] = useState(null);
-  setActiveTab('ak');
+  const [activeTab, setActiveTab] = useState('ak');
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
