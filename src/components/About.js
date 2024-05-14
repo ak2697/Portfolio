@@ -99,7 +99,7 @@ const About = () => {
 
       <div className='line'></div>
       <div className="certifications-section">
-        <h2 className='heading'>Frameworks</h2>
+        <h2 className='heading'>Certifications</h2>
         <div className="skill-cards">
           {/* Map over the skills array to generate skill cards */}
           {certifications.map((certification, index) => (
