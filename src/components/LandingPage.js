@@ -3,15 +3,9 @@ import React from 'react';
 import './LandingPage.css'; // Import your CSS file for styling
 import profileImage from '../assets/profile.jpeg'; // Import your profile image
 import { FaGraduationCap, FaEnvelope, FaPhone, FaMusic } from 'react-icons/fa';
-import { FaBookOpen } from "react-icons/fa";
-import { FcCellPhone } from "react-icons/fc";
-import { FcReadingEbook } from "react-icons/fc";
-import { FcMusic } from "react-icons/fc";
-import { FcAddressBook } from "react-icons/fc";
+
 import UserDetails from './UserDetails';
 import SocialButtons from './SocialButtons';
-import NavBar from './NavBar';
-import Projects from './Projects';
 
 
 

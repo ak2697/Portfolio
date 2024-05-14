@@ -23,7 +23,6 @@ import azure from '../assets/azure.png';
 
 
 import awsccp from '../assets/awsccp.png';
-import NavBar from './NavBar';
 // Import other skill icons
 
 const About = () => {

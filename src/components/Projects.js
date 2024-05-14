@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects.css'; // Import your CSS file for styling
 import GithubImage from '../assets/github.png'; 
-import NavBar from './NavBar';
 const Projects = () => {
   // Array of projects (dummy data)
   const projects = [
