@@ -2,7 +2,6 @@
 import React from 'react';
 import './LandingPage.css'; // Import your CSS file for styling
 import profileImage from '../assets/profile.jpeg'; // Import your profile image
-import { FaGraduationCap, FaEnvelope, FaPhone, FaMusic } from 'react-icons/fa';
 
 import UserDetails from './UserDetails';
 import SocialButtons from './SocialButtons';
