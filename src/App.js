@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import LandingPage from './components/LandingPage';
+import LandingPage from './components/ak';
 import Projects from './components/Projects';
 import About from './components/About';
 
