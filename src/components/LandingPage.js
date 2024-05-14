@@ -8,11 +8,6 @@ import SocialButtons from './SocialButtons';
 
 
 const LandingPage = () => {
-  const scrollToProjects = () => {
-    const projectsSection = document.getElementById('projects-section');
-    projectsSection.scrollIntoView({ behavior: 'smooth' });
-    
-  };
 
   
   return (   
