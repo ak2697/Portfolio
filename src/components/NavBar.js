@@ -4,7 +4,7 @@ import './NavBar.css';
 
 const NavBar = () => {
   const [activeTab, setActiveTab] = useState(null);
-
+  setActiveTab('ak');
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
