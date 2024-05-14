@@ -90,7 +90,6 @@ const Projects = () => {
 
   return (
     <div>
-      <NavBar />
       <div id="projects-section" className="projects-section">
   
   <div className="project-list">

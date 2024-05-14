@@ -62,7 +62,6 @@ const About = () => {
 
   return (
     <div>
-    <NavBar />
     <div className="about-container">
       {/* Short Bio */}
       <div className="bio">

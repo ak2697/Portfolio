@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <LandingPage/>
+        <NavBar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
@@ -22,6 +22,8 @@ function App() {
           <Route path="/ak" element={<LandingPage />} />
         </Routes>
       </div>
+
+      <LandingPage />
     </Router>
   );
 }

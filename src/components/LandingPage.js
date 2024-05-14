@@ -25,7 +25,6 @@ const LandingPage = () => {
   
   return (   
     <div>
-      <NavBar />
     <div className="landing-page">
       <div className="landing-page-content">
         <div className="profile-image-container">
