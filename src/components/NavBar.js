@@ -16,7 +16,7 @@ const NavBar = () => {
         className={`nav-item ${activeTab === 'about' ? 'active' : ''}`}
         onClick={() => handleTabClick('about')}
       >
-        <strong>About Me</strong>
+        <strong>About</strong>
       </NavLink>
       <NavLink
         to="/ak"
