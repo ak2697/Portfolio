@@ -27,7 +27,7 @@ const Projects = () => {
       description: 'The Fitness and Workouts Optimization App is a mobile application that leverages wearable technology and real-time health data to personalize workouts.',
       image: GithubImage, // Add image URL for Project 2
       skills: 'Android · Tizen  ·   Java  ·    XML  ·    Shared Preferences    ·    Firebase    ·   OAuth   ·     Realtime Database',
-      githubLink: 'https://github.com/Kanvi1/Fit-Fusion' // Add GitHub link for Project 2
+      githubLink: 'https://github.com/Kanvi1/CSE535-FitFusion' // Add GitHub link for Project 2
     },
     { 
       id: 1, 
